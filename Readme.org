@@ -1,7 +1,7 @@
 * Feldolgozás qgisben
 ** A vonal felkeresése
 Az ~útnyilvántartás~ réteg segítségével megkeresem a térképet. A
-leggyorsabb a rétegre állva az "Attribútum tábla megnyitása" gombbal a
+leggyorsabb a rétegre állva az ~Attribútum tábla megnyitása~ gombbal a
 táblázatot megnyitva, az oszlop számára kattintani.
 
 A térkép arányai alapján kb. jól belőhető a terület, s megtalálható az út.
