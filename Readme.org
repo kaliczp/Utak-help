@@ -1,0 +1,88 @@
+* Feldolgozás qgisben
+** A vonal felkeresése
+Az ~útnyilvántartás~ réteg segítségével megkeresem a térképet. A
+leggyorsabb a rétegre állva az "Attribútum tábla megnyitása" gombbal a
+táblázatot megnyitva, az oszlop számára kattintani.
+
+A térkép arányai alapján kb. jól belőhető a terület, s megtalálható az út.
+
+** A vonal kijelölése ha csak néhány szakaszból áll
+A megtalált útvonalat az "Egy elem szelektálása" gombbal, a ~Ctrl~
+gombot nyomva tartva végik kell kattintani. A kiválasztott szakasz
+sárga lesz.  Ha tévesen választottam ki valamit, akkor csak rá kell
+kattintani, természetesen a ~Ctrl~-t nem elengedve.
+
+Fontos, hogy bal gombos kattintást csak ~Ctrl~ segítségével csináljak,
+mert különben az eddigi kijelölés eltűnik. Két egérgombot nyomva
+eltolhatom a térképet. Görgető gombbal belenagyíthatok. Oda nagyít,
+ahol a kurzor van.
+
+A kijelölt utat másolom a vágólapra (~Ctrl-C~).
+
+** A vonal kiválasztása ha sok kicsi szegmensből áll
+Előfordul, hogy a hosszabb szakaszok között több pici szegmens van.
+
+Ebben az esetben érdemes használni az ~Úthálózat modul~-t, amit
+bekapcsolva és a ~Vektor -> Úthálózat -> Beállítások~-ra OK-t ütve be
+lehet izzítani.
+
+A ~Beállítások -> Tárgyraszter beállítások~ menü segítségével érdemes
+egy kis toleranciát adni a törésponthoz. Kísérletként 20-at adtam. Jól
+működött vele.
+
+Ez a modul kijelöli a csatlakozó vektorokat. Meg kell adni a kezdőpontot
+és a végpontot. Némi vizsgálat után megjelenik piros vonallal az eredmény.
+Ez egy vektor, amit a modul felületén található gombbal exportálni lehet
+egy új rétegbe. Az új réteget aktívvá téve a vágólapra másolható.
+
+
+** A kijelölt vektor beillesztése
+
+Ha az adott lapon az első vektort akarom elmenteni, akkor új rétegként
+a ~Szerkeszt -> Elem beillesztése mint -> Új vektor réteg~
+segítségével tudom beilleszteni.
+
+A frissen létrehozott réteget szerkeszthetővé kell tenni. A következő utat
+már mint beillesztés a vágólapról hozzá lehet adni. A kimásolás után az
+eredmény réteget kell aktuálissá tenni.
+
+** Összefűzés
+Ha több darabban másoltam be a vektort, akkor célszerű az összefűzést
+rögtön a bemásolás után megcsinálni.  Ha több térképről bemásolt utat
+fűzünk össze természetesen később is kijelölhetők a darabok a
+szerkeszthető eredmény térképen.
+
+Az összefűzés funkció a ~Szerkeszt -> Szelektált elemek összevonása~
+kiválasztásával érhető el. Nekem a nem összefüggő vonalakat is simán
+összefűzte, így a hiányzó szakaszok berajzolása helyett a táblázatban
+jelöltem a hiányokat.
+
+** Leíró adatok
+Az összefűzés után az adattáblába beírom a számot, a nevet és a hosszt.
+Az első vektornál létre kell hozni a megfelelő mezőket. Azonosítónak
+meghagytam az alapértelmezett =FID= mezőt. Az út nevének 20 karakter hosszú
+mezőt (=Név=), a hossznak 8+2-es valós mezőt (=Hossz=) hoztam létre.
+
+Az érték adás az azonosítónál és a névnél egyszerő beírás. A hossznál az
+abakuszra kattintva a ~Létező mezők frissítése~ dobozt be kell kattintani,
+kiválasztani a ~Hossz~-t, és beírni a ~Kifejezés~-hez, hogy ~$length~. 
+
+** Darabolás
+A Hurok utat újra kellett darabolnom. Ott jól jött az alábbi leírás:
+
+I often need to split a linestring exactly on one of his existing
+internal vertices, but I can't find a way; I've tried the tool "Split
+Features" thinking that it could snap on vertices.
+
+In Snapping Options (Settings menu) enable snapping (better snapping
+to vertex only in your case as suggested in comments) for your layer,
+then using Split feature tool make a left click on the one blank space
+on side of the line, then make left click on the vertex where the
+split should occur and in the end make a right click on the blank
+space on the other side of the line.
+
+Végül újra beolvastam, mert kísérletezés köben néhány node elmozdult.
+
+** Probléma
+Községhatárnál az út két darabban, nem csatlakozó vonalként
+14004
