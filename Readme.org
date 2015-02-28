@@ -89,3 +89,5 @@ Végül újra beolvastam, mert kísérletezés köben néhány node elmozdult.
 ** Probléma
 Községhatárnál az út két darabban, nem csatlakozó vonalként
 14004
+
+15 térképen Hátsó völgyi út csak részlethatárként van meg!
