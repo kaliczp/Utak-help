@@ -67,6 +67,8 @@ Az érték adás az azonosítónál és a névnél egyszerő beírás. A hosszn�
 abakuszra kattintva a ~Létező mezők frissítése~ dobozt be kell kattintani,
 kiválasztani a ~Hossz~-t, és beírni a ~Kifejezés~-hez, hogy ~$length~. 
 
+A ~Hossz~ mezőt érdemes csak időnként frissíteni a sok kattintás miatt.
+
 ** Darabolás
 A Hurok utat újra kellett darabolnom. Ott jól jött az alábbi leírás:
 
