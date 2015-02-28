@@ -68,6 +68,7 @@ abakuszra kattintva a ~Létező mezők frissítése~ dobozt be kell kattintani,
 kiválasztani a ~Hossz~-t, és beírni a ~Kifejezés~-hez, hogy ~$length~. 
 
 A ~Hossz~ mezőt érdemes csak időnként frissíteni a sok kattintás miatt.
+Mindig láthatóvá teszem az ~Attribútum tábla~ ablakot.
 
 ** Darabolás
 A Hurok utat újra kellett darabolnom. Ott jól jött az alábbi leírás:
