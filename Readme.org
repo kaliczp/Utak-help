@@ -57,6 +57,11 @@ kiválasztásával érhető el. Nekem a nem összefüggő vonalakat is simán
 összefűzte, így a hiányzó szakaszok berajzolása helyett a táblázatban
 jelöltem a hiányokat.
 
+Néhányszor előfordult, hogy több utat sikerült összevonnom. Talán kijelölve
+maradt az előző, vagy nem tökéletes a módszer. Ilyenkor az adatbázisban
+kijelöltem a legutolsót, töröltem, s ha látszólag nem volt ellentmondás,
+akkor újra bemásoltam.
+
 ** Leíró adatok
 Az összefűzés után az adattáblába beírom a számot, a nevet és a hosszt.
 Az első vektornál létre kell hozni a megfelelő mezőket. Azonosítónak
