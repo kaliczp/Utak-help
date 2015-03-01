@@ -91,3 +91,6 @@ Községhatárnál az út két darabban, nem csatlakozó vonalként
 14004
 
 15 térképen Hátsó völgyi út csak részlethatárként van meg!
+
+Sok helyen nem egyértelmű az elhatárolás, nevek. Névtelen utaknál
+kérdőjeles nevet adtam.
