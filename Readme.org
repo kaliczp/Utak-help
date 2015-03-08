@@ -91,7 +91,7 @@ space on the other side of the line.
 
 Végül újra beolvastam, mert kísérletezés köben néhány node elmozdult.
 
-** Probléma
+* Probléma
 Községhatárnál az út két darabban, nem csatlakozó vonalként
 14004
 
@@ -99,3 +99,17 @@ Községhatárnál az út két darabban, nem csatlakozó vonalként
 
 Sok helyen nem egyértelmű az elhatárolás, nevek. Névtelen utaknál
 kérdőjeles nevet adtam.
+
+** TODO Györkei út hossza változott!
+
+<2015-03-08 v>
+17 térkép bal alsó sarok kék, névtelen vonal nincs a vonalak között
+17002 legvégét nem jelöltem, az erdőtömb határán kívül.
+17005 Rozsnoki új dózerút egy vicc. A régi alapján kivett területet kerülgeti. (1)
+17006 Rozsnoki régi dózerút (1)
+23101 Kopott hutai út (1)
+23103 Glóbuszi út (1)
+
+15009 és 14011 Ugyan az az út?
+
+14016 Tekeresi út vége egy részlethatár vagy term. vonal
