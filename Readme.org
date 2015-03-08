@@ -117,7 +117,9 @@ kérdőjeles nevet adtam.
 17006 Rozsnoki régi dózerút (1)
 23101 Kopott hutai út (1)
 23103 Glóbuszi út (1)
+23110 Fényes-pusztai út Maradt rajta egy pöcök
 
 15009 és 14011 Ugyan az az út?
 
 14016 Tekeresi út vége egy részlethatár vagy term. vonal
+
