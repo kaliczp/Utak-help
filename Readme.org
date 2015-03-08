@@ -60,7 +60,8 @@ jelöltem a hiányokat.
 Néhányszor előfordult, hogy több utat sikerült összevonnom. Talán kijelölve
 maradt az előző, vagy nem tökéletes a módszer. Ilyenkor az adatbázisban
 kijelöltem a legutolsót, töröltem, s ha látszólag nem volt ellentmondás,
-akkor újra bemásoltam.
+akkor újra bemásoltam. Úrakiválasztás nélküli megoldást lásd lejjebb a
+[[V%C3%A9letlen%C3%BCl%20%C3%B6sszef%C5%B1z%C3%B6tt%20k%C3%BCl%C3%B6n%C3%A1ll%C3%B3%20elemek%20darabol%C3%A1sa][Véletlenül összefűzött különálló elemek darabolása]] fejezetben
 
 ** Leíró adatok
 Az összefűzés után az adattáblába beírom a számot, a nevet és a hosszt.
@@ -90,6 +91,13 @@ split should occur and in the end make a right click on the blank
 space on the other side of the line.
 
 Végül újra beolvastam, mert kísérletezés köben néhány node elmozdult.
+
+** Véletlenül összefűzött különálló elemek darabolása
+Két hosszabb utat összerántott a program. Kimásoltam őket egy új rétegre,
+összekötöttem őket egy vonallal és összefűztem, majd mint elemet elvágtam
+őket. Az eredeti rétegen a problémás vonalat kitöröltem, majd a szétvágott
+változatát visszamásoltam. Úgy tűnik rendben.
+
 
 * Probléma
 Községhatárnál az út két darabban, nem csatlakozó vonalként
