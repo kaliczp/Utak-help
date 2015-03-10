@@ -98,6 +98,26 @@ Két hosszabb utat összerántott a program. Kimásoltam őket egy új rétegre,
 őket. Az eredeti rétegen a problémás vonalat kitöröltem, majd a szétvágott
 változatát visszamásoltam. Úgy tűnik rendben.
 
+** Út a határ szélén
+I have a layer that contains roads in polygons and I need to get
+>> central lines of the polygons. When I convert directly from polygons
+>> to lines, I get two lines for each part of the road representing road
+>> "boundaries" which isn't good.
+>>
+>>
+>> There's a procedure using GRASS that you might choose. It involves
+>> converting the polygons to a GRASS raster, then running the GRASS module
+>> r.thin, and then converting back to a vector.
+>> Here's an old thread that mentions the method:
+
+If vector map contains only rivers, You could try
+out v.to.rast and then r.thin till You get something similar to river
+and then convert back to vectors with r.to.vect.
+
+Two difficulties:
+- you have to set the resolution fairly high in order to keep the road's
+  shapes, but then the raster might be too large to work with on a large area
+- and you loose the attribute table on the way...
 
 * Probléma
 Községhatárnál az út két darabban, nem csatlakozó vonalként
