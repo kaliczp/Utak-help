@@ -122,6 +122,11 @@ Two difficulties:
   shapes, but then the raster might be too large to work with on a large area
 - and you loose the attribute table on the way...
 
+** Topológiai ellenőrzés
+A modulok közül be kell kapcsolni a ~Topology checker~-t, aminél egy 
+szabályt kell hozzáadni, s lefuttatni. Piros gombócokkal jelöli a dangle
+node-okat.
+
 * Probléma
 Községhatárnál az út két darabban, nem csatlakozó vonalként
 14004
