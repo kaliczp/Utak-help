@@ -95,6 +95,10 @@ space on the other side of the line.
 
 Végül újra beolvastam, mert kísérletezés köben néhány node elmozdult.
 
+*** Töréspontok megjelölése
+Réteg tulajdonságok (duplaklikk a rétegen) -> Style -> A vonal 2 vonalból álljon (Zöld +) a felső "Marker Line" és jelöljük be a "minden töréspont" opciót.
+Az alsó vonal legyen az egyszínű vonal.
+
 ** Véletlenül összefűzött különálló elemek darabolása
 Két hosszabb utat összerántott a program. Kimásoltam őket egy új rétegre,
 összekötöttem őket egy vonallal és összefűztem, majd mint elemet elvágtam
