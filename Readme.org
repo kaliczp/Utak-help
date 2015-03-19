@@ -1,4 +1,12 @@
 * Feldolgozás qgisben
+** Karakterkódolás
+A QGIS-ben létrehozott rétegeknek megadható, hogy milyen kódolást használjanak 
+a szöveges tartalom (mező érték, valamint fejléc) tárolására. Kézenfekvő lenne 
+az UTF-8, de a DigiTerra Map-pel való kompatibilitás miatt a Windows 1250-es
+kódolást célszerű választani. Ha az shp kódolását meg szeretnénk változtatni, 
+azt a mentés másként parancson keresztül tehetjük meg. Itt állítsuk be az új kódolást, és mentsük el a réteget.
+
+
 ** A vonal felkeresése
 Az ~útnyilvántartás~ réteg segítségével megkeresem a térképet. A
 leggyorsabb a rétegre állva az ~Attribútum tábla megnyitása~ gombbal a
