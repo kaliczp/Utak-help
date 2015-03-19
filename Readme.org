@@ -133,6 +133,20 @@ A modulok közül be kell kapcsolni a ~Topology checker~-t, aminél egy
 szabályt kell hozzáadni, s lefuttatni. Piros gombócokkal jelöli a dangle
 node-okat.
 
+* GRASS
+Használd a GRASS 7.0-át, korábbi verzóban bonyolultabb.
+
+#+BEGIN_SRC GRASS
+v.in.ogr -o input=vonal19.shp output=v19
+v.clean -c input=v19 output=v19c1 tool=snap,break threshold=1.0,0
+v.out.ogr -s input=v19c1 type=line output=v19c1.shp format=ESRI_Shapefile
+#+END_SRC
+
+Ugyan ez automatizálva a fekete képernyőn (ez tényleg csak egy sor):
+#+BEGIN_SRC sh
+for file in vonal*shp; do v.in.ogr -o input=$file output=v;v.clean -c input=v output=vc tool=snap,break threshold=1.0,0; v.out.ogr -s input=vc type=line output=new_$file format=ESRI_Shapefile; g.remove -f typ=vec name=v,vc; done
+#+END_SRC
+
 * Probléma
 Községhatárnál az út két darabban, nem csatlakozó vonalként
 14004
