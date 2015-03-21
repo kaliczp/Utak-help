@@ -167,18 +167,9 @@ Községhatárnál az út két darabban, nem csatlakozó vonalként
 15 térképen Hátsó völgyi út csak részlethatárként van meg!
 
 Sok helyen nem egyértelmű az elhatárolás, nevek. Névtelen utaknál
-kérdőjeles nevet adtam.
+kérdőjeles nevet adtam, a táblázatban a nevet áttettem a megjegyzésbe.
 
-** TODO Györkei út hossza változott!
-
-<2015-03-08 v>
-17 térkép bal alsó sarok kék, névtelen vonal nincs a vonalak között
 17002 legvégét nem jelöltem, az erdőtömb határán kívül.
-17005 Rozsnoki új dózerút egy vicc. A régi alapján kivett területet kerülgeti. (1)
-17006 Rozsnoki régi dózerút (1)
-23101 Kopott hutai út (1)
-23103 Glóbuszi út (1)
-23110 Fényes-pusztai út Maradt rajta egy pöcök
 
 15009 és 14011 Ugyan az az út?
 
