@@ -111,7 +111,8 @@ vonalból álljon (Zöld +) a felső "Marker Line" és jelöljük be a
 
 ** Véletlenül összefűzött különálló elemek darabolása
 Két hosszabb utat összerántott a program. Kimásoltam őket egy új rétegre,
-összekötöttem őket egy vonallal és összefűztem, majd mint elemet elvágtam
+összekötöttem őket egy vonallal és összefűztem, a "Szelektált elemek
+összevonásá"-val, majd mint elemet elvágtam
 őket. Az eredeti rétegen a problémás vonalat kitöröltem, majd a szétvágott
 változatát visszamásoltam. Úgy tűnik rendben.
 
