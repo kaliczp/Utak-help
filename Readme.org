@@ -4,8 +4,15 @@ A QGIS-ben létrehozott rétegeknek megadható, hogy milyen kódolást használj
 a szöveges tartalom (mező érték, valamint fejléc) tárolására. Kézenfekvő lenne 
 az UTF-8, de a DigiTerra Map-pel való kompatibilitás miatt a Windows 1250-es
 kódolást célszerű választani. Ha az shp kódolását meg szeretnénk változtatni, 
-azt a mentés másként parancson keresztül tehetjük meg. Itt állítsuk be az új kódolást, és mentsük el a réteget.
+azt a mentés másként parancson keresztül tehetjük meg. Itt állítsuk be az
+új kódolást, és mentsük el a réteget.
 
+*** Kódlap beállítás szerkesztett fájlon
+
+A kiválasztott rétegen jobb gomb, s a tulajdonságok kiválasztása a
+felbukkanó menüből. A megjelenő Általános fülön a "Karakter kódolás"-t
+system-ről windows-1250-re kell áttenni.
+A kódlapbeállítás eltérhet operációs-rendszerenként!
 
 ** A vonal felkeresése
 Az ~útnyilvántartás~ réteg segítségével megkeresem a térképet. A
@@ -86,6 +93,7 @@ kiválasztani a ~Hossz~-t, és beírni a ~Kifejezés~-hez, hogy ~$length~.
 
 A ~Hossz~ mezőt érdemes csak időnként frissíteni a sok kattintás miatt.
 Mindig láthatóvá teszem az ~Attribútum tábla~ ablakot.
+
 
 ** Darabolás
 A Hurok utat újra kellett darabolnom. Ott jól jött az alábbi leírás:
