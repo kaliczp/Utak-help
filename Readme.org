@@ -150,6 +150,11 @@ A modulok közül be kell kapcsolni a ~Topology checker~-t, aminél egy
 szabályt kell hozzáadni, s lefuttatni. Piros gombócokkal jelöli a dangle
 node-okat.
 
+** Google Maps
+Ahhoz, hogy a térkép alatt megjelenjen műholkép az
+OpenLayers plugint kell telepíteni. Ez a googlen kívűl
+bing és OSM rétegeket is be tud pakolni. Egy sima ki- és
+bekapcsolaható réteget pakol fel.
 * GRASS
 Használd a GRASS 7.0-át, korábbi verzóban bonyolultabb.
 
